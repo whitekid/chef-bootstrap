@@ -4,6 +4,9 @@ chef에서 노드를 추가하는데 knife bootstrap 명령을 사용한다. 하
 # 사용법
  ```
  $ git clone git://github.com/whitekid/chef-bootstrap.git
- $ sudo ln -s chef-bootstrap/ubuntu12.04-apt.erb /usr/lib/ruby/vendor_ruby/chef/knife/bootstrap/ubuntu10.04-apt.erb
+ $ sudo ln -s chef-bootstrap/ubuntu12.04-apt.erb /usr/lib/ruby/vendor_ruby/chef/knife/bootstrap/ubuntu12.04-apt.erb
  $ knife bootstrap <ip-address> -d ubuntu-12.04-apt --bootstrap-version 0.10
  ```
+
+# 참고
+ * ubuntu12.04-apt.erb 파일은 ubuntu10.04-apt.erb 파일과 코드네임을 빼고 완전히 동일하다.
